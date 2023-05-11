@@ -164,11 +164,11 @@ function drawImage($speedtest)
     // configure labels
     $MBPS_TEXT = 'Mbps';
     $MS_TEXT = 'ms';
-    $PING_TEXT = 'Ping';
-    $JIT_TEXT = 'Jitter';
-    $DL_TEXT = 'Download';
-    $UL_TEXT = 'Upload';
-    $WATERMARK_TEXT = 'LibreSpeed';
+    $PING_TEXT = 'Ping测试';
+    $JIT_TEXT = 'Jitter测试';
+    $DL_TEXT = '下载带宽';
+    $UL_TEXT = '上传带宽';
+    $WATERMARK_TEXT = '成都所网速测试';
 
     // create text boxes for each part of the image
     $mbpsBbox = imageftbbox($FONT_MEASURE_SIZE_BIG, 0, $FONT_MEASURE, $MBPS_TEXT);
